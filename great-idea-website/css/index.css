@@ -70,11 +70,19 @@ body {
 
 header {
 	width: 876px;
+	margin: 0px 0px 50px 0px;
 }
 
 nav {
 	display: inline-block;
 	width: 79%;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center;
+	margin-right: 55px;
 }
 
 .logo {
@@ -83,15 +91,18 @@ nav {
 }
 
 .top-content {
-	height: 600px;
+	height: auto;
 	width: 876px;
-	margin: auto;
-	display: inline-block;
+	margin: 50px auto;
+	display: inline-blocK;
 }
 
 .top-content-left   {
 	width: 49%;
 	display: inline-block;
+	padding: 0px 60px 0px 60px;
+	text-align: center;	
+	height: auto;
 }
 
 .top-content-right {
@@ -144,5 +155,24 @@ hr {
 }
 
 p {
-	padding: 10px;
+	padding: 10px 5PX 10PX 0PX;
 }
+
+h2 {
+	margin: 5px 0px 0px 0px;
+}
+
+.adress {
+	margin: 10px auto;
+}
+
+
+.adress > p {
+	padding: 0;
+}
+
+#cw {
+	margin: auto;
+	text-align: center;
+}
+
