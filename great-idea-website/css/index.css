@@ -64,3 +64,123 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 0px 80px;
+}
+
+header {
+	width: 876px;
+	margin: 0px 0px 50px 0px;
+}
+
+nav {
+	display: inline-block;
+	width: 79%;
+}
+
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center;
+	margin-right: 55px;
+}
+
+.logo {
+	display: inline-block;
+	width:19%
+}
+
+.top-content {
+	height: auto;
+	width: 876px;
+	margin: 50px auto;
+	display: inline-blocK;
+}
+
+.top-content-left   {
+	width: 49%;
+	display: inline-block;
+	padding: 0px 60px 0px 60px;
+	text-align: center;	
+	height: auto;
+}
+
+.top-content-right {
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-section {
+	width: 876px;
+	display: inline-block;
+}
+
+.middle-left {
+	display: inline-block;
+	width: 49%;
+}
+
+.middle-right {
+	display: inline-block;
+	width: 49%;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.bottom-section {
+	display: inline-block;
+	width: 876px;
+}
+
+.bottom-left {
+	display: inline-block;
+	width: 33%;
+}
+
+.bottom-center {
+	display: inline-block;
+	width: 33%;
+}
+
+.bottom-right {
+	display: inline-block;
+	width: 33%;
+}
+
+hr {
+	display: inline-block;
+	width: 876px;
+}
+
+p {
+	padding: 10px 5PX 10PX 0PX;
+}
+
+h2 {
+	margin: 5px 0px 0px 0px;
+}
+
+.adress {
+	margin: 10px auto;
+}
+
+
+.adress > p {
+	padding: 0;
+}
+
+#cw {
+	margin: auto;
+	text-align: center;
+}
+
+.text {
+	margin: 25px 0px;
+}
+
+footer {
+	margin-top: 25px;
+}
+
